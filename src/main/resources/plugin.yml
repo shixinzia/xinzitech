@@ -1,0 +1,26 @@
+name: XinziTech
+author: shixinzia
+description: more slimefun content
+main: io.github.shixinzia.xinzitech.XinziTech
+website: https://github.com/shixinzia/XinziTech
+depend: [Slimefun]
+version: ${project.version}
+api-version: 1.16
+
+commands:
+  xinzitech:
+    description: Use /xinzitech help for a list of commands
+    usage: /xinzitech <subcommand>
+    aliases: [xz, xztech, xzt]
+
+permissions:
+  xinzitech.setdata:
+    description: Access to /xinzitech setdata
+    default: op
+  xinzitech.printitem:
+    description: Access to /xinzitech printitem
+    default: op
+  xinzitech.giverecipe:
+    description: Access to /xinzitech giverecipe
+    default: op
+

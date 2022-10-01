@@ -1,2 +1,4 @@
-# xinzitech
-心孜科技-制作中
+# XinziTech 心孜科技
+
+心孜科技-测试版
+
